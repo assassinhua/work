@@ -1,0 +1,46 @@
+
+body {  
+    font-family: Arial, sans-serif;  
+    line-height: 1.6;  
+    margin: 0;  
+    padding: 0;  
+    color: #c6cae3; /* 这里定义了body内文本的默认颜色 */  
+}  
+  
+/* 类选择器，用于设置背景图片 */  
+.image-background {  
+    background-image: url('https://img-baofun.zhhainiao.com/fs/961130081a09ef1f27bf6b61e95866e6.jpg');  
+    background-size: cover;  
+    background-position: center;  
+}  
+  
+/* Header styling */  
+header {  
+    background: #ffd4c9;  
+    color: #ffffff;  
+    padding: 10px 20px;  
+    text-align: center;  
+}  
+  
+/* Section styling */  
+section {  
+    margin: 20px;  
+    padding: 20px;  
+    background: white;  
+    border-radius: 8px;  
+    /* 假设你想要一个浅灰色的阴影 */  
+    box-shadow: 0 0 10px 0 rgba(218, 245, 252, 0.1);  
+}  
+  
+/* Headings within sections (注意这里可能需要更具体的上下文选择器，例如 section h2) */  
+h2 {  
+    color: #ffffff; /* 如果h2在白色背景的section内，可能需要更改颜色 */  
+}  
+  
+/* Footer styling */  
+footer {  
+    text-align: center;  
+    padding: 10px 20px;  
+    background: #000000;  
+    color: #ffffff; /* 改为白色以便在黑色背景上阅读 */  
+}  
